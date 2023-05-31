@@ -33,3 +33,5 @@ Route::get('/hello', function () {
 });
 
 Route::post('/login',[ApiAuthController::class,'login']);
+
+Route::post('/register',[ApiAuthController::class,'register']);
